@@ -1,9 +1,12 @@
 import app.Conf.view
 import spark.Route
-import spark.Spark.get
+import spark.Spark.*
 import java.util.*
 
 fun main(args: Array<String>){
+  port(8080)
+  staticFileLocation("/static")
+
   //Routes
   get("/",        index)
   get("/about",   about)
