@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title>Test</title>
+	</head>
+	<body>
+	  <a href="/contact">Contact</a>
+		<a href="/about">About</a>
+		<a href="/">Home</a>
+		{% block content %}{% endblock %}
+	</body>
+</html>
