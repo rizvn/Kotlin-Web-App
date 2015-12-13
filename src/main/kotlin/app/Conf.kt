@@ -17,7 +17,7 @@ object Conf {
     loader.suffix = ".peb"
     loader.charset = StandardCharsets.UTF_8.name();
     val engine = PebbleEngine(loader)
-    engine.templateCache = null //disable cahce for dev
+    engine.templateCache = null //disable cache for dev
     engine
   }
 
