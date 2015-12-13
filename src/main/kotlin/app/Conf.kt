@@ -24,7 +24,7 @@ object Conf {
   /**
    * Function used to render a view with moddl
    * @param view name of view to use
-   * @param model optional model to send to viw
+   * @param model optional model to send to view
    */
   fun view(view: String, model: Map<String, Any> = HashMap<String, Any>()): String {
     val template = pebbleEngine.getTemplate(view)
